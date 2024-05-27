@@ -1,0 +1,81 @@
+/* Root Colors */
+:root {
+    --green-color: #268600;
+    --light-green-color: #4CAF50;
+    --lime-green-color: #adf78f;
+    --background-grey-color: #f8f8f8;
+    --grey-color: #ccc;
+    --white-color: #fff;
+}
+
+/* Global Styling */
+* {
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(90deg, var(--light-green-color), var(--lime-green-color));
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Stylings */
+.header h2 {
+    color: var(--green-color);
+}
+
+.header p {
+    text-transform: capitalize;
+}
+
+/* Wrapper Styling */
+.wrapper {
+    border: 1px solid var(--background-grey-color);
+    border-radius: 10px;
+    margin: 70px;
+    background-color: var(--background-grey-color);
+    padding: 20px;
+}
+
+/* Wrapper Content Styling */
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+/* Left & Right Container Styling */
+.left-container,
+.right-container {
+    flex: 50%;
+    padding: 0 16px;
+
+}
+
+/* Textbox Styling */
+.input-textbox {
+    font-size: 15px;
+    padding: 10px 10px;
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid var(--grey-color);
+    border-radius: 4px;
+}
+
+/* Age box Styling */
+.input-age {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Submit button styling */
+.input-submit {
+    width: 100%;
+    background-color: var(--light-green-color);
+    color: var(--white-color);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
